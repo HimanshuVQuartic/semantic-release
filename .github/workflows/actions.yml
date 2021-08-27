@@ -3,6 +3,10 @@ on:
   push:
     branches:
       - master
+      - develop
+      - f1
+      - f2
+
 jobs:
   release:
     name: Release
