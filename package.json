@@ -1,6 +1,6 @@
 {
   "name": "hqs",
-  "version": "0.0.0-development",
+  "version": "0.0.0-semantically-released",
   "description": "1st semantic release",
   "main": "main.js",
   "scripts": {
