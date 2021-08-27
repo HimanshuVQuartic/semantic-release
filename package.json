@@ -20,8 +20,4 @@
   "devDependencies": {
     "semantic-release": "^17.4.7"
   }
-  {
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
-  }
 }
