@@ -31,7 +31,7 @@ jobs:
     - run: npm ci 
 
     - run: node main.js
-    
+    - run: npm install @semantic-release/changelog -D
     - name: Run Semantic Release
       run: npx semantic-release
       env:
