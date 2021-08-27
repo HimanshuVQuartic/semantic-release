@@ -30,6 +30,6 @@ jobs:
 
     - run: node main.js
     - run: npm run semantic-release
-      evn: 
+      env: 
         NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
