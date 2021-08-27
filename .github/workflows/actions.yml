@@ -30,5 +30,3 @@ jobs:
 
     - run: node main.js
     - run: npm run semantic-release
-      env: 
-        NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
