@@ -31,3 +31,8 @@ jobs:
     - run: npm ci
     - run: npm run build --if-present
     - run: npm test
+    - name: Run Semantic Release
+      run: npx semantic-release
+      env:
+        GIT_TOKEN: ${{ secrets.GIT_TOKEN }}
+        NPM_TOKEN: ${{ secrets.NPM_TOKEN }}  
