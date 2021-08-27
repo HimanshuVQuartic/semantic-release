@@ -29,3 +29,7 @@ jobs:
         node-version: ${{ matrix.node-version }}
 
     - run: node main.js
+    - run: npm run semantic-release
+      evn: 
+        NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
