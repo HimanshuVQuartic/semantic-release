@@ -1,0 +1,23 @@
+{
+  "name": "hqs",
+  "version": "0.0.0-development",
+  "description": "1st semantic release",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "semantic-release": "semantic-release"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HimanshuVQuartic/semantic-release.git"
+  },
+  "author": "himanshu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HimanshuVQuartic/semantic-release/issues"
+  },
+  "homepage": "https://github.com/HimanshuVQuartic/semantic-release#readme",
+  "devDependencies": {
+    "semantic-release": "^17.4.7"
+  }
+}
