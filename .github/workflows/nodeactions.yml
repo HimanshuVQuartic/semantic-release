@@ -6,10 +6,10 @@ name: Node.js CI
 on:
   push:
     branches:
-      - master
-      - develop
-      - f1
-      - f2
+          - master
+          - develop
+          - f1
+          - f2
 
 jobs:
   build:
@@ -27,5 +27,13 @@ jobs:
       uses: actions/setup-node@v2
       with:
         node-version: ${{ matrix.node-version }}
+        
+    - run: npm ci 
 
     - run: node main.js
+    - run: npm i -g semantic-release @semantic-release/git
+    - name: Run Semantic Release
+      run: npx semantic-release
+      env:
+        GIT_TOKEN: ${{ secrets.GIT_TOKEN }}
+        NPM_TOKEN: ${{ secrets.NPM_TOKEN }}  
