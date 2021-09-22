@@ -6,4 +6,4 @@ console.log("I am Himanshu")
 console.log("I love Moter Sports")
 console.log("I am Smart")
 console.log("I love Moter Sports a lot") 
-master
+console.log("I am intelligent")
