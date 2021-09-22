@@ -8,4 +8,5 @@ console.log("Hello People")
 
 console.log("I am Himanshu")
 
-console.log("I love Moter Sports") 
+console.log("I love Moter Sports")
+console.log("I am Smart")
